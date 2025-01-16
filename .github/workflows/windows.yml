@@ -8,6 +8,7 @@ jobs:
       matrix:
         arch: ["32", "64"]
         version: ["3.12.8"]
+        
     runs-on: windows-latest
     steps:
       - name: checkout
